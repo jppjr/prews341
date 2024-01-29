@@ -1,0 +1,26 @@
+
+# cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input#concept.label = ML 模型输入
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.Input(java.lang.Integer)#phrase.navigation = 新建 {ML 模型输入}符合条件：{0, clientindustry} 
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.action = 设置{this}的当前 clientindustry为{clientindustry}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.addition_setter = 加{clientindustry}到{this}的属性当前 clientindustry里
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.navigation = {this} 的{clientindustry}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.subtraction_setter = 减{clientindustry}到{this}的属性当前 clientindustry里
+
+# cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output#concept.label = ML 模型输出
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = 新建 {ML 模型输出}符合条件：{0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.action = 设置{this}的当前 confidence为{confidence}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.addition_setter = 加{confidence}到{this}的属性当前 confidence里
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.navigation = {this} 的{confidence}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.subtraction_setter = 减{confidence}到{this}的属性当前 confidence里
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.predictedClientdefaultedpayment#phrase.action = 设置{this}的当前 predicted clientdefaultedpayment为{predicted clientdefaultedpayment}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.predictedClientdefaultedpayment#phrase.navigation = {this} 的{predicted clientdefaultedpayment}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.action = 设置{this}的当前 rank为{rank}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.addition_setter = 加{rank}到{this}的属性当前 rank里
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.navigation = {this} 的{rank}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.subtraction_setter = 减{rank}到{this}的属性当前 rank里
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.action = 设置{this}的当前 weight为{weight}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.addition_setter = 加{weight}到{this}的属性当前 weight里
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.navigation = {this} 的{weight}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.subtraction_setter = 减{weight}到{this}的属性当前 weight里

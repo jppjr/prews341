@@ -1,0 +1,26 @@
+
+# cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input#concept.label = ML model input
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.Input(java.lang.Integer)#phrase.navigation = a new {ML model input} where {0, clientindustry} 
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.action = set the clientindustry of {this} to {clientindustry}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.addition_setter = add {clientindustry} to the clientindustry of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.navigation = {clientindustry} of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.subtraction_setter = subtract {clientindustry} from the clientindustry of {this}
+
+# cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output#concept.label = ML model output
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = a new {ML model output} where {0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.action = set the confidence of {this} to {confidence}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.addition_setter = add {confidence} to the confidence of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.navigation = {confidence} of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.subtraction_setter = subtract {confidence} from the confidence of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.predictedClientdefaultedpayment#phrase.action = set the predicted clientdefaultedpayment of {this} to {predicted clientdefaultedpayment}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.predictedClientdefaultedpayment#phrase.navigation = {predicted clientdefaultedpayment} of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.action = set the rank of {this} to {rank}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.addition_setter = add {rank} to the rank of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.navigation = {rank} of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.subtraction_setter = subtract {rank} from the rank of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.action = set the weight of {this} to {weight}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.addition_setter = add {weight} to the weight of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.navigation = {weight} of {this}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.subtraction_setter = subtract {weight} from the weight of {this}

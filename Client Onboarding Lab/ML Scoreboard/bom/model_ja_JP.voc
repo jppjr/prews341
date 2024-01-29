@@ -1,0 +1,26 @@
+
+# cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input#concept.label = ML モデル入力
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.Input(java.lang.Integer)#phrase.navigation = 新規の {ML モデル入力}ここで{0, clientindustry} 
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.action = {this}のclientindustryを{clientindustry}とする
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.addition_setter = {this}のclientindustryに{clientindustry}を追加する
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.navigation = {this}の{clientindustry}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Input.clientindustry#phrase.subtraction_setter = {this}のclientindustryから{clientindustry}を引く
+
+# cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output#concept.label = ML モデル出力
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = 新規の {ML モデル出力}ここで{0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.action = {this}のconfidenceを{confidence}とする
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.addition_setter = {this}のconfidenceに{confidence}を追加する
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.navigation = {this}の{confidence}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.confidence#phrase.subtraction_setter = {this}のconfidenceから{confidence}を引く
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.predictedClientdefaultedpayment#phrase.action = {this}のpredicted clientdefaultedpaymentを{predicted clientdefaultedpayment}とする
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.predictedClientdefaultedpayment#phrase.navigation = {this}の{predicted clientdefaultedpayment}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.action = {this}のrankを{rank}とする
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.addition_setter = {this}のrankに{rank}を追加する
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.navigation = {this}の{rank}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.rank#phrase.subtraction_setter = {this}のrankから{rank}を引く
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.action = {this}のweightを{weight}とする
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.addition_setter = {this}のweightに{weight}を追加する
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.navigation = {this}の{weight}
+cp4admin.ex_client_onboarding.client_onboarding_lab.mlscoreboard.Output.weight#phrase.subtraction_setter = {this}のweightから{weight}を引く
