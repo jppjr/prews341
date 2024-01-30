@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><com.ibm.rules.studio.model.decisionmodel:DecisionModel xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
   <name>decisionModel</name>
   <uuid>9ea400d3-69a0-4dd5-8ddb-2b32d7bc16da</uuid>
   <locale>en_US</locale>
-  <definition>
-        <definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
     <extensionElements>
         <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
     </extensionElements>
@@ -35,7 +35,8 @@
         </informationRequirement>
     </decision>
     <inputData id="node_2" name="Services">
-        <description>The list of services requested by the client at the start of the onboarding. The services depend on the type of industry.</description>
+        <description>The list of services requested by the client at the start of the onboarding. The services depend on the type of industry.
+Nova descrição</description>
         <extensionElements>
             <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
                 <output bomType="ServiceRequest" collection="false" name="Services"/>
@@ -172,5 +173,5 @@
         </encapsulatedLogic>
     </businessKnowledgeModel>
 </definitions>
-    </definition>
+</definition>
 </com.ibm.rules.studio.model.decisionmodel:DecisionModel>
